@@ -47,6 +47,7 @@
   ];
 
   services.openssh.enable = true;
+  services.qemuGuest.enable = true;
 
   networking.firewall.allowedTCPPorts = [ 80 3493 ];
   networking.firewall.allowedUDPPorts = [ 161 ];
